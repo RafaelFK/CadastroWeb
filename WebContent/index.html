@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro Online</title>
+</head>
+<body>
+	<h1>Cadastro</h1>
+	<hr>
+	<form action="CadastroServlet" method="get">
+		Busque cadastros de disciplinas:<br> <input type="text" name="busca"> <br><br>
+		<input type="submit" name="submit" value="Buscar"></input>
+	</form>
+	<br><br>
+	<h3>Adicione novas disciplinas</h3><hr>
+	<form action="CadastroServlet" method="get">
+		Nome:<br> <input type="text" name="nome"><br>
+		Ementa:<br> <input type="text" name="ementa"><br>
+		Código:<br> <input type="text" name="codigo"><br><br>
+		<input type="submit" name="submit" value="Salvar"></input>
+	</form>
+	
+</body>
+</html>
